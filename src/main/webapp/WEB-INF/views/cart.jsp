@@ -15,8 +15,9 @@
 	Name: ${cart.getProduct().getName()},
 	Price: ${cart.getProduct().getPrice()} zł, 	
 	Quantity: ${cart.getQuantity()}
-	<a href="">Dodaj produkt</a>
-	<a href="">Odejmij produkt</a>
+	<a href="/SpringHomework_02/changeQuantity/plus/${cart.getProduct().getId()}">Dodaj produkt</a>
+	<a href="/SpringHomework_02/changeQuantity/minus/${cart.getProduct().getId()}">Odejmij produkt</a>
+	<a href="/SpringHomework_02/deleteFromCart?id=${cart.getProduct().getId()}&quantity=${cart.getQuantity()}">Usuń produkt</a>
 	</h3>
 	</c:forEach>
 	<h2>W koszyku jest: ${cartSize} pozycji</h2>

@@ -13,7 +13,6 @@
 			Product id:
 			<input type="number" name="id" step="1" />
 		</h2>
-		<br />
 		<h2>
 			Product name:
 			<input type="text" name="name" />
@@ -22,7 +21,6 @@
 			Product price:
 			<input type="number" name="price" step="0.1" />
 		</h2>
-		<br />
 		<h2>Quantity <input type="number" name="quantity" step="1" /></h2>
 		<br/>
 		<input type="submit" value="Send">
