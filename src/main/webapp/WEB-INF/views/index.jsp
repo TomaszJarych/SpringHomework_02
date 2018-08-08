@@ -15,6 +15,6 @@
 <h2><a href="/SpringHomework_02/first">Zadanie 2</a></h2>
 
 <h1>Zadanie 3</h1>
-<h2><a href="/SpringHomework_02/workers">Zadanie 3</a></h2>
+<h2><a href="/SpringHomework_02/workers">Zadanie 4 (Brak zadania nr 3 na liście)</a></h2>
 </body>
 </html>
